@@ -1,0 +1,28 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+}
+
+h2{
+    text-decoration:underline;
+}
+
+#shopping-list>li::before{
+    content: " ";
+    width:25px;
+    height:25px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1828/1828778.png");
+}
+ol,ul{
+    font-size: 32px;
+    list-style-position: inside;
+    padding-bottom:10px;
+}
+
+ol>li{
+    background-color:orange;
+}
+
+ol>li>ol>li{
+    background-color:yellow;
+}
